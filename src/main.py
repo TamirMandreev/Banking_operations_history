@@ -12,7 +12,7 @@ from utils import (data_validation, get_most_recent_transaction,
 def main():
 
     # Открыть json файл в режиме чтения в переменную file.
-    with open('operations.json', 'r') as file:
+    with open('src/operations.json', 'r') as file:
         # Загрузить содержимое file в переменную data.
         data = json.load(file)
 

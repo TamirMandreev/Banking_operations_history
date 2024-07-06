@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "banking operations history"
+name = "Banking_operations_history"
 version = "0.1.0"
 description = ""
 authors = ["Tamir Mandreev <tamirmandreev@mail.ru>"]
@@ -7,6 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pytest = "^8.2.2"
+pytest-cov = "^5.0.0"
 
 
 [build-system]
